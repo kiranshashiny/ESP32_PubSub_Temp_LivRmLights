@@ -1,5 +1,5 @@
 /*
- Basic ESP8266 MQTT example
+ Basic ESP32 MQTT example
 
  This sketch demonstrates the capabilities of the pubsub library in combination
  with the ESP8266 board/library.
@@ -22,6 +22,8 @@
   - Select your ESP8266 in "Tools -> Board"
 
 */
+//ESP 32 uses WiFi.h
+// ESP8266 uses   ESP8266WiFi.h
 
 #include <WiFi.h>
 #include <PubSubClient.h>
